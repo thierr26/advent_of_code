@@ -3,8 +3,6 @@ with Ada.Command_Line,
 
 package Day_01.Library is
 
-   procedure Error (Message : String);
-
    procedure Check_Argument_Count (Success : out Boolean)
      with Post => Success xor Ada.Command_Line.Argument_Count /= 2;
 
