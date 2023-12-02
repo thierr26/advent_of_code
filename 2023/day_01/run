@@ -1,0 +1,10 @@
+#!/bin/sh
+
+SCRIPT_PATH="$(realpath $0)";
+SCRIPT_DIR="${SCRIPT_PATH%/*}";
+
+cd "$SCRIPT_DIR";
+
+alr build --validation
+alr run -s -a "part_1 data/puzzle_input"
+alr run -s -a "part_2 data/puzzle_input"

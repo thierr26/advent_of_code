@@ -1,0 +1,9 @@
+name = "day_01"
+description = "Shiny new project"
+version = "0.1.0-dev"
+
+authors = ["Thierry Rascle"]
+maintainers = ["Thierry Rascle <thierr26@free.fr>"]
+maintainers-logins = ["thierr26"]
+
+executables = ["day_01"]
